@@ -7,6 +7,5 @@ public class Mark extends Parent {
     public Mark(int isFull, boolean horizontal) {
         this.isFull = isFull;
         this.horizontal = horizontal;
-
     }
 }
