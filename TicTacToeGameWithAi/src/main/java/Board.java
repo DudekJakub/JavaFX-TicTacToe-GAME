@@ -222,7 +222,7 @@ public class Board extends Parent {
                           board.comboProcessor(board, 1) == 2 && board.comboProcessor(board, 4) == 2 && board.comboProcessor(board, 7) == 2) {
 
                     combosPairs.add(board.getCombos().get(1));
-                    playWinAnimation(board, 202, 0, 0, 400);
+                    playWinAnimation(board, 204, 0, 0, 400);
                     return true;
                 } else if(board.comboProcessor(board, 2) == 1 && board.comboProcessor(board, 5) == 1 && board.comboProcessor(board, 8) == 1 ||
                           board.comboProcessor(board, 2) == 2 && board.comboProcessor(board, 5) == 2 && board.comboProcessor(board, 8) == 2) {
